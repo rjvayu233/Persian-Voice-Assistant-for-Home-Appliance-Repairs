@@ -1,7 +1,5 @@
 # Persian Voice Assistant for Home Appliance Repairs 🛠️🎙️
 
-## About the Project 📖
-
 This project is a sophisticated Persian voice assistant designed to
 assist users in diagnosing and repairing common home appliances. Users
 can simply speak their issues in Persian, and the assistant will guide
